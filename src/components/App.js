@@ -4,6 +4,7 @@ import SocialProfiles from './SocialProfiles';
 import profile from "../assets/profile.jpg"
 import Title from './Title';
 
+
 class App extends Component {
     
     state = {displayBio: false};
