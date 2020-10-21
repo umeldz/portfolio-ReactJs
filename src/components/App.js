@@ -3,7 +3,7 @@ import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import profile from "../assets/profile.jpg"
 import Title from './Title';
-import Header from './Header';
+//import Header from './Header';
 
 class App extends Component {
     
@@ -25,7 +25,6 @@ class App extends Component {
       
         return(
             <div> 
-                <Header/>
                 <img src={profile} alt='Uriel Melendez' className='profile'/>
                 <h1>Hello</h1>
                 <p>My name is Uriel</p>
@@ -53,5 +52,7 @@ class App extends Component {
         )
     }
 }
+
+
 
 export default App;
